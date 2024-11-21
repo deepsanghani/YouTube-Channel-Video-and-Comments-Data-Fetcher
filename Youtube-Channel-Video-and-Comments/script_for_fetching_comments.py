@@ -4,7 +4,7 @@ from datetime import datetime
 import pytz
 import re
 
-API_KEY = 'AIzaSyAt2SNfQkQAWuDpUgzOWt7k_Qh72aUalwQ'
+API_KEY = 'API_KEY'
 
 def get_youtube_client():
     youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=API_KEY)
